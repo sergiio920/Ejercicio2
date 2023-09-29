@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbCantidadCochesMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Coches: 0" />
+
+    <Button
+        android:id="@+id/btnCrearCocheMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR COCHE"
+        app:icon="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/lbCantidadMotosMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Motos: 0" />
+
+    <Button
+        android:id="@+id/btnCrearMotoMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR MOTO"
+        app:icon="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/lbCantidadBicisMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bicis: 0" />
+
+    <Button
+        android:id="@+id/btnCrearBiciMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR BICI"
+        app:icon="@android:drawable/ic_input_add" />
+
+</LinearLayout>
