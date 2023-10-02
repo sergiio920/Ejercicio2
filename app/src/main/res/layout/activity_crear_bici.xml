@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".actividades.CrearCocheActivity">
+    tools:context=".actividades.CrearBiciActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -15,11 +15,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="CREAR COCHE"
+        android:text="CREAR BICI"
         android:textSize="34sp" />
 
     <EditText
-        android:id="@+id/txtMarcaCrearCoche"
+        android:id="@+id/txtMarcaCrearBici"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -28,21 +28,12 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/txtModeloCrearCoche"
+        android:id="@+id/txtPulgadasCrearBici"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:ems="10"
-        android:hint="Modelo"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/txtColorCrearCoche"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:ems="10"
-        android:hint="Color"
+        android:hint="Pulgadas"
         android:inputType="text" />
 
     <LinearLayout
@@ -51,7 +42,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnCancelarCrearCoche"
+            android:id="@+id/btnCancelarCrearBici"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
@@ -60,7 +51,7 @@
             app:cornerRadius="0dp" />
 
         <Button
-            android:id="@+id/btnCrearCrearCoche"
+            android:id="@+id/btnCrearCrearBici"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"

@@ -1,6 +1,8 @@
 package sergio.moron.ejercicio2.modelos;
 
-public class Bici {
+import java.io.Serializable;
+
+public class Bici implements Serializable {
     private String marca;
     private String pulgadas;
 
